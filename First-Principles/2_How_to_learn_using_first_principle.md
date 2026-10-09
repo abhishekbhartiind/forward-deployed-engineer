@@ -58,3 +58,9 @@ When you get to the AI section:
 
 Repeat this for every topic.
 This is how you ensure that by the end, you don't just know about AI concepts—you can ship working AI systems.
+
+
+For example, 
+- do not memorize that a vector database stores embeddings.
+- First understand why searching thousands of documents by exact words is insufficient.
+- Then learn how embeddings represent meaning, why nearest-neighbor search helps, and where semantic search can fail.
