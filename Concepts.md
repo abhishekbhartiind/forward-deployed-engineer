@@ -96,7 +96,7 @@ Model calculates probabilities:
 Model selects "Paris" and continues:
 "The capital of France is Paris. It is known for"
 
-
+```text
 Input: "The capital of India is"
 
              ↓
@@ -111,6 +111,7 @@ Input: "The capital of India is"
 
          "New Delhi"
 
+```
 A token can be a word, part of a word, or another text unit.
 
 Repeated prediction generates a response one token at a time. 
@@ -141,6 +142,7 @@ Traditional keyword-based search would miss the semantic connection between the 
 Math to the rescue: how embeddings work
 Under the hood, an embedding model is a neural network trained to map text to vectors in a high-dimensional space. The key idea is that semantically similar texts should have vectors that are close to each other in this space.
 
+```text
 Example:
 
 "I want to buy a house" → [0.12, -0.45, 0.78, ...]
@@ -148,6 +150,7 @@ Example:
 "I'm looking to purchase a property" → [0.15, -0.42, 0.75, ...]
 
 "How do I cook pasta?" → [-0.89, 0.34, -0.12, ...]
+```
 
 Vectors for similar sentences are close; unrelated sentences are far apart. The exact numbers don't matter as much as their relative positions and distances.
 
